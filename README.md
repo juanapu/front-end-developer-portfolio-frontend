@@ -1,6 +1,4 @@
-# mall
 
-> mall project
 
 ## Build Setup
 
