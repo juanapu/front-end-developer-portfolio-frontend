@@ -24,6 +24,9 @@ vue-icon
 https://www.npmjs.com/package/vue-icon
 
 
+# in process
+vuex ->
+not login 
 
 ## remain work
 
