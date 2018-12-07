@@ -92,7 +92,6 @@
 				this.$emit('chgShow',false);
 			},
 			addFunc(){
-				console.log('clicked');
 				const _this = this;
 				axios.post('/portfolios/add',{
 					imgurl: _this.params.imgurl, 
@@ -105,6 +104,11 @@
 					index: _this.params.index
 				}).then(res=>{
 					_this.changeShow();
+					if(res.data.status === '1001'){
+						alert(res.data.msg)
+					}
+		console.log('clicked');
+		console.log(res);
 				});
 			}
 		}
